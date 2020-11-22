@@ -42,8 +42,8 @@ function myFunction(){
      top : 390
 });
  $(aa[4]).offset({
-     left : 30,
-     top : 470
+     left : 53,
+     top : 480
 });
 }
 
