@@ -1,0 +1,39 @@
+<body onload="myFunction()">
+
+  <div>
+   <img class="img0" src="https://ifh.cc/g/HpDJQv.png">
+  <a href="http://www.naver.com" >
+  <img class="img2" href="http://www.naver.com" src="https://ifh.cc/g/mx5DZT.png"
+      border="0">
+  </a>
+
+  <h2>
+    <a href="/" class="nav-link"><p>Home</p></a>
+    <a href="/posts" class="nav-link"><p>게시판</p></a>
+    <a href="/posts1" class="nav-link"><p>게시판2</p></a>
+ </h2>
+
+
+
+  <div class="content">
+    <h1 class="title">재능기부플렛폼</h1>
+   </div>
+   <ul class="navbar-nav ml-auto">
+    <% if(isAuthenticated){ %>
+      <li class="nav-item btn1"><h5><a href="/users/<%= currentUser.username %>" class="nav-link">My Account</a></h5></li>
+      <li class="nav-item btn2"><h5><a href="/logout" class="nav-link">Logout</a></h5></li>
+    <% } else { %>
+      <li class="nav-item btn1"><h5><a href="/users/new" class="nav-link">Sign Up</a></h5></li>
+      <li class="nav-item btn2"><h5><a href="/login" class="nav-link">Login</a></h5></li>
+    <% } %>
+    </ul>
+        <div class="mainsrc" >
+       <img src='https://ifh.cc/g/fNGgrz.jpg' width="350" height="80"  border="0">
+                    </div>
+       
+    </div>
+ 
+ 
+
+  
+
